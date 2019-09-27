@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        div img{
+            margin-top: 20%;
+            margin-left: 10%;
+
+        }
+        .col-5{
+            margin-top: 9%;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">评论区</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">jQuery</a>
+        </li>
+    </ul>
+</nav>
+<div class="container row">
+    <div class=" col-6">
+        <div>
+            <img src="fj.jpeg" alt="big_img" width="90%" height="90%">
+        </div>
+    </div>
+
+<div class=" col-5">
+    <div class="card mb-5" >
+        <div class="card-header text-white bg-success ">左边的图片好看吗？大家快来讨论吧！</div>
+        <div class="card-body text-primary">
+            <div class="test_area">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="发表评论:" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" onclick="submit()">Go!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="obj"></div>
+</div>
+</div>
+</body>
+<script src="../jquery-3.4.1.js"></script>
+<script src="jQuery.js"></script>
+</html>
