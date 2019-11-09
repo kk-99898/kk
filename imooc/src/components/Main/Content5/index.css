@@ -1,0 +1,121 @@
+.more-2{
+    float: right;
+    margin-top: 2px;
+    line-height: 24px;
+    color: #1C1F21;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+.container-read .course-read-container:hover {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.container-read .course-read-container {
+    float: left;
+    padding: 18px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: 368px;
+    height: 210px;
+    transition: all .3s;
+}
+.container-read .course-read-container .course-banner img {
+    height: 118px;
+    width: 104px;
+}
+.container-read .course-read-container .course-banner .try-read-img {
+    margin-top: 5px;
+    text-indent: 999em;
+    overflow: hidden;
+    background: url(https://imooc.com/static/img/column/try-read-img_new_2x.png);
+    background-repeat: no-repeat;
+    background-size: 34px auto;
+    background-position: center;
+    width: 30px;
+    height: 20px;
+}
+.container-read .course-read-container h4 {
+    margin-left: 112px;
+    font-size: 14px;
+    line-height: 22px;
+    height: 44px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: relative;
+    bottom: 146px;
+}
+.container-read .course-read-container h4 a:hover {
+    color: #37f;
+}
+.container-read .course-read-container .course-read-info {
+    margin-left: 112px;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #9199A1;
+    text-align: left;
+    line-height: 14px;
+    border-bottom: 1px solid rgba(28, 31, 33, 0.1);
+    position: relative;
+    bottom: 136px;
+}
+.container-read .course-read-container .course-read-teacher {
+    margin: 10px 0;
+    margin-left: 112px;
+    font-size: 12px;
+    color: #1C1F21;
+    text-align: left;
+    line-height: 16px;
+    overflow: hidden;
+    height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    bottom: 136px;
+}
+.container-read .course-read-container .course-read-teacher span {
+    font-weight: bold;
+}
+a:hover, a:active {
+    color: #ec1500;
+}
+.container-read .course-read-container .course-read-price {
+    margin-left: 112px;
+    margin-top: 17px;
+    position: relative;
+    bottom: 134px;
+}
+.container-read .course-read-container .course-read-price .sale {
+    font-size: 16px;
+    color: #3377FF;
+    text-align: left;
+    line-height: 32px;
+    font-weight: bold;
+}
+.container-read .course-read-container .course-read-price .ori {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #9199A1;
+    text-align: left;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+.container-read .course-read-container .course-read-price .countdown {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    text-align: right;
+}
+.container-read .course-read-container .course-read-price .countdown .name {
+    color: #fff;
+    line-height: 16px;
+    height: 16px;
+    background-image: linear-gradient(90deg, #3377ff 0, #74ccff 99%);
+    padding: 2px 6px;
+    font-size: 12px;
+}

@@ -1,0 +1,13 @@
+.logo {
+    float: left;
+    margin: 0 20px;
+}
+.logo a {
+    display: block;
+    width: 140px;
+    height: 72px;
+    transition: background-color 0.2s;
+}
+.logo a img {
+    height: 72px;
+}

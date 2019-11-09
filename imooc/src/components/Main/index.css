@@ -1,0 +1,17 @@
+#main {
+    display: block;
+    padding: 0;
+    min-height: calc(100% - 140px);
+}
+#main .bk {
+    width: 162%;
+    position: absolute;
+    top: -104px;
+    float: right;
+    left: -600px;
+    background-size: cover;
+    transition: all .3s;
+    height: 180px;
+    opacity: 0.3;
+    filter: blur(100px);
+}

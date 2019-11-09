@@ -1,0 +1,9 @@
+#main > .bgfff {
+    box-shadow: 0 2px 8px 0 rgba(7, 17, 27, 0.06);
+}
+.bgfff {
+    background-color: #fff !important;
+}
+.banner-box {
+    padding-top: 32px;
+}
