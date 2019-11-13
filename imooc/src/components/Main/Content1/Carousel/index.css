@@ -1,0 +1,29 @@
+.g-banner {
+    height: 382px;
+    margin-bottom: 44px !important;
+    background-color: #93999f;
+    box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
+}
+
+.g-banner {
+    position: relative;
+    width: 1152px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.menuwrap,
+.menuContent {
+    height: 382px;
+}
+
+.menuwrap {
+    background-color: rgba(7, 17, 27, 0.5);
+    opacity: 0.502;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 216px;
+    z-index: 1;
+    border-radius: 8px;
+}

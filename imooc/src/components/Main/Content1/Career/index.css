@@ -1,0 +1,29 @@
+.container-types .types-title .intro1 {
+    position: relative;
+    bottom: 30px;
+    margin-top: 6px;
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #545C63;
+    line-height: 20px;
+    float: right;
+    right: 884px;
+}
+.recommend {
+    width: 368px;
+    height: 90px;
+    margin-right: 24px;
+    position: relative;
+    bottom: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-types .recommend-box {
+    margin-top: 24px;
+    margin-left: 0px;
+}
+.container-types .recommend-box a:last-child .recommend {
+    margin-right: 0;
+}
