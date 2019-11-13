@@ -1,0 +1,144 @@
+.g-banner .g-banner-content {
+    position: relative;
+    float: left;
+    width: 936px;
+    left: 216px;
+    bottom: 382px;
+}
+
+.g-banner .g-banner-content .g-banner-box {
+    height: 382px;
+}
+
+.g-banner .g-banner-content .g-banner-box {
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+}
+
+.icon-left2:before {
+    content: "\e913";
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+}
+
+.icon-right2:before {
+    content: "\e914";
+    position: relative;
+    bottom: 6px;
+    right: 6px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.banner-anchor {
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    line-height: 48px;
+    background: rgba(28, 31, 33, 0.1);
+    border-radius: 50%;
+    font-size: 32px;
+    color: #FFFFFF !important;
+    text-align: center;
+    opacity: 12;
+}
+
+.carousel-control-prev {
+    height: 48px;
+    width: 48px;
+}
+
+.prev {
+    left: 16px;
+}
+
+.prev:hover {
+    background: rgba(28, 31, 33, 0.5);
+}
+
+.next:hover {
+    background: rgba(28, 31, 33, 0.5);
+}
+
+.next {
+    right: 16px;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: none !important;
+    text-decoration: none !important;
+    outline: none;
+    opacity: none !important;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    background: rgba(255, 255, 255, 0.75);
+    transition: transform .2s;
+    cursor: pointer;
+    border: none;
+    background-color: none;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 780px;
+    right: 0;
+    text-align: right;
+    padding-right: 18px;
+    line-height: 12px;
+    margin: 0;
+}
+
+.g-banner .banner-dots span.active {
+    width: 20px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 20px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -ms-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0.8;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}

@@ -1,0 +1,111 @@
+.container-types.container-recommend {
+    padding-top: 0px;
+    padding-bottom: 44px;
+    height: 180px;
+}
+
+.container-types {
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 36px 0 38px;
+}
+.container-types .types-title {
+    font-size: 24px;
+    color: #1C1F21;
+    height: 32px;
+    letter-spacing: 0px;
+    line-height: 32px;
+}
+.container-types .types-title span {
+    position: relative;
+    right: 936px;
+    font-weight: bold;
+}
+.container-types .types-title .intro {
+    position: relative;
+    margin-top: 6px;
+    margin-left: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #545C63;
+    line-height: 20px;
+}
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.path-list {
+    margin-top: 24px;
+    height: 80px;
+    position: absolute;
+}
+.path-list > a:first-child {
+    margin-left: 0;
+}
+
+.path-list > a {
+    float: left;
+    font-size: 0;
+    display: block;
+    width: 216px;
+    padding-top: 15px;
+    height: 80px;
+    overflow: hidden;
+    margin-left: 18px;
+    transition: all .3s;
+    background: #F3F5F6;
+    border-radius: 8px;
+
+}
+
+.path-list .i-web {
+    background-position: center 0;
+}
+.path-list .i-java {
+    background-position: center -50px;
+}
+.path-list .i-python {
+    background-position: center -100px;
+}
+.path-list .i-android {
+    background-position: center -150px;
+}
+.path-list .i-php {
+    background-position: center -200px;
+}
+.path-list i {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(https://imooc.com/static/img/index/new/path-2019-9.png) no-repeat;
+    background-size: 100%;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.path-list > a:hover {
+    box-shadow: 0px 4px 8px #0000001f;
+    text-decoration: none;
+}
+.path-list .tit {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1C1F21;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+.path-list .desc {
+    font-size: 12px;
+    color: #1C1F21;
+    line-height: 16px;
+    margin-top: 2px;
+    font-weight: 400;
+}
+p {
+    word-break: break-all;
+}
+

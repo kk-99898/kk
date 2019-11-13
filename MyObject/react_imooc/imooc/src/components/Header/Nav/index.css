@@ -1,0 +1,29 @@
+.nav-item li {
+    float: left;
+}
+.nav-item li a {
+    color: #4D555D !important;
+}
+.nav-item li a:hover{
+    text-decoration: none;
+    color: #07111b !important;
+}
+.nav-item li a {
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    height: 72px;
+    line-height: 72px;
+    transition: background-color 0.3s;
+    position: relative;
+    text-decoration: none;
+}
+.icn-new {
+    position: absolute;
+    display: inline-block;
+    top: 14px;
+    width: 16px;
+    height: 16px;
+    background: url(./../../../img/header/new.png) no-repeat 0 0;
+}
